@@ -1,0 +1,42 @@
+/* Navbar.css */
+
+.navbar {
+    background: #121212; /* Dark background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    opacity: 0.95; /* Slight transparency for modern look */
+  }
+  
+  .navbar a {
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #ff9800; /* Orange color on hover for links */
+  }
+  
+  .navbar button {
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .navbar button:hover {
+    color: #ff9800; /* Orange color on hover for buttons */
+  }
+  
+  .navbar .button-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .navbar .button-container .button {
+    border-radius: 9999px; /* Full rounded buttons */
+    padding: 0.5rem 1rem; /* Better padding for buttons */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar .button-container .button:hover {
+    background-color: #ff9800; /* Orange background on hover */
+    color: #121212; /* Dark text on hover */
+  }
+  
+  
